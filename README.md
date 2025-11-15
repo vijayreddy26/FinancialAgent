@@ -36,11 +36,11 @@ There are two main ways to interact with the agents: via a direct script executi
 ## Running the Direct Execution Script
 The financial_agent.py script demonstrates the multi_AI_agent in action by streaming a response to a specific financial query.
 
-Bash
+### Bash
 python financial_agent.py
 This script executes the multi-agent task: "summarize analyst recommendation and share the latest news for NVDA".
 
 ## Running the Interactive Playground
 The playground.py script starts a local web server, allowing you to interact with the individual Financial AI Agent and Web Search Agent through a user interface.
-Bash
+### Bash
 python playground.py
